@@ -1762,7 +1762,7 @@ a {
   font-weight: 300;
 }
 
-.section-3 {
+.section-txt {
   margin-top: -30px;
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(29, 29, 29, 0.5)), to(rgba(29, 29, 29, 0.5))), url('../images/Tablica.jpg');
   background-image: linear-gradient(180deg, rgba(29, 29, 29, 0.5), rgba(29, 29, 29, 0.5)), url('../images/Tablica.jpg');
@@ -2453,7 +2453,7 @@ a {
     margin-left: 20px;
   }
 
-  .section-3 {
+  .section-txt {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -2724,7 +2724,7 @@ a {
     align-items: flex-start;
   }
 
-  .section-3 {
+  .section-txt {
     padding-left: 40px;
   }
 
