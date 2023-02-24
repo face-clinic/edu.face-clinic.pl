@@ -1481,9 +1481,9 @@ a {
   display: inline-block;
   margin-bottom: 15px;
   padding: 5px 10px;
-  background-color: #fff;
-  color: #414141;
-  font-size: 22px;
+  background-color: rgba(65, 65, 65, 0.7);
+  color: #fff;
+  font-size: 16px;
   line-height: 22px;
   font-weight: 500;
 }
@@ -1517,49 +1517,44 @@ a {
   text-transform: uppercase;
 }
 
-.div-block-91 {
-  margin-bottom: 40px;
-}
-
 .list-2 {
   margin-bottom: 15px;
-  padding-left: 45px;
-  color: hsla(0, 0%, 100%, 0.85);
-  font-size: 20px;
-  line-height: 24px;
-  font-weight: 300;
+  padding-left: 60px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
   list-style-type: disc;
 }
 
 .list-item {
   margin-bottom: 10px;
+  font-size: 16px;
 }
 
 .list-3 {
   margin-top: -10px;
   margin-bottom: 15px;
-  padding-left: 64px;
-  color: hsla(0, 0%, 100%, 0.7);
-  font-size: 18px;
-  line-height: 20px;
-  font-weight: 100;
+  padding-left: 75px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 300;
   list-style-type: square;
 }
 
 .list-4 {
   margin-bottom: 10px;
-  padding-left: 23px;
+  padding-left: 40px;
+  font-weight: 500;
 }
 
 .list-item-2 {
-  color: #fff;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 22px;
   list-style-type: disc;
 }
 
 .list-item-3 {
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 
 .div-block-93 {
@@ -2001,9 +1996,7 @@ a {
 
 .accordian-content {
   overflow: hidden;
-  margin-right: 10px;
   margin-bottom: 5px;
-  margin-left: 10px;
   -webkit-box-flex: 1;
   -webkit-flex: 1;
   -ms-flex: 1;
@@ -2013,6 +2006,10 @@ a {
 .rich-text-block-opis {
   padding-right: 10px;
   padding-left: 10px;
+}
+
+.rich-text-block-opis.txt {
+  font-size: 16px;
 }
 
 .rich-text-block-opis.txt._1 {
@@ -2092,6 +2089,16 @@ a {
 
 .paragraf-1 {
   margin-bottom: 2px;
+}
+
+.list-6 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.list-7 {
+  font-size: 16px;
+  line-height: 22px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2663,6 +2670,10 @@ a {
   .wykladowcy {
     padding-right: 20px;
     padding-left: 20px;
+  }
+
+  .podpunkt._2 {
+    margin-bottom: 0px;
   }
 
   .div-block-91 {
