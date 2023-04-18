@@ -22,7 +22,7 @@ a {
   align-items: center;
   background-color: rgba(65, 65, 65, 0.5);
   -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
   color: transparent;
 }
 
@@ -240,7 +240,7 @@ a {
   max-width: 120px;
   min-width: 140px;
   -ms-grid-row-align: stretch;
-  align-self: stretch;
+      align-self: stretch;
   border-radius: 20%;
   background-color: #5a5c61;
 }
@@ -331,7 +331,7 @@ a {
   border-top: 1px dashed hsla(0, 0%, 100%, 0.5);
   background-color: rgba(0, 0, 0, 0.13);
   -webkit-backdrop-filter: blur(15px);
-  backdrop-filter: blur(15px);
+          backdrop-filter: blur(15px);
 }
 
 .adres {
@@ -617,7 +617,7 @@ a {
   border-color: hsla(0, 0%, 100%, 0.5);
   border-radius: 20px;
   -webkit-backdrop-filter: blur(5px);
-  backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
 }
 
 .paragraph-4 {
@@ -933,7 +933,7 @@ a {
   border-radius: 16px;
   box-shadow: 1px 1px 3px 0 #000;
   -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
+          backdrop-filter: blur(3px);
   transform: translate(0px, 0px);
   transition: transform 200ms ease;
 }
@@ -1028,7 +1028,7 @@ a {
   margin-left: 5%;
   padding-top: 20px;
   -ms-grid-row-align: center;
-  align-self: center;
+      align-self: center;
 }
 
 .osoba_foto_big {
@@ -1043,7 +1043,7 @@ a {
 
 .text-block-16 {
   -ms-grid-row-align: center;
-  align-self: center;
+      align-self: center;
   font-weight: 300;
 }
 
@@ -1435,7 +1435,7 @@ a {
   border-width: 1px;
   border-color: hsla(0, 0%, 100%, 0.6);
   -webkit-backdrop-filter: blur(20px);
-  backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
 }
 
 .round-16 {
@@ -1451,7 +1451,7 @@ a {
   border-color: hsla(0, 0%, 100%, 0.6);
   background-color: #fff;
   -webkit-backdrop-filter: blur(30px);
-  backdrop-filter: blur(30px);
+          backdrop-filter: blur(30px);
 }
 
 .przerwa-10 {
@@ -1550,7 +1550,7 @@ a {
   margin-right: 10px;
   margin-left: 10px;
   -ms-grid-row-align: center;
-  align-self: center;
+      align-self: center;
   filter: brightness(133%) invert(100%) grayscale(100%);
 }
 
@@ -1714,7 +1714,7 @@ a {
   .div-block-58 {
     background-color: rgba(65, 65, 65, 0.5);
     -webkit-backdrop-filter: blur(20px);
-    backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
   }
 
   .motyw {
@@ -1739,7 +1739,7 @@ a {
     width: 100%;
     min-width: auto;
     -ms-grid-row-align: center;
-    align-self: center;
+        align-self: center;
   }
 
   .image-17 {
@@ -1984,7 +1984,7 @@ a {
 
   .box-kategoria-tytul {
     -ms-grid-row-align: stretch;
-    align-self: stretch;
+        align-self: stretch;
   }
 
   .box-kategoria-tytul.zespol {
@@ -2071,12 +2071,12 @@ a {
 
   .box-kategoria-tytul-2 {
     -ms-grid-row-align: stretch;
-    align-self: stretch;
+        align-self: stretch;
   }
 
   .round-16 {
     -ms-grid-row-align: stretch;
-    align-self: stretch;
+        align-self: stretch;
     border-radius: 0px;
   }
 }
