@@ -108,6 +108,7 @@ a {
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+  display: none;
 }
 
 .section._1 {
@@ -748,6 +749,10 @@ a {
   background-color: rgba(65, 65, 65, .2);
   margin-top: 3px;
   margin-bottom: 3px;
+}
+
+.div-block-63.off {
+  display: none;
 }
 
 .list {
