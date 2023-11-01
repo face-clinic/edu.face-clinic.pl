@@ -1,3 +1,15 @@
+:root {
+  --dark-slate-grey: #414141;
+  --black-2: rgba(13, 26, 37, .5);
+  --black: rgba(44, 23, 23, .7);
+  --dark-slate-grey-3: rgba(12, 48, 51, .5);
+  --white: white;
+  --baza: rgba(29, 29, 29, .5);
+  --maroon: rgba(73, 6, 6, .2);
+  --dark-slate-grey-2: rgba(0, 95, 102, .2);
+  --saddle-brown: rgba(73, 44, 14, .2);
+}
+
 body {
   color: #333;
   font-family: museo-sans-rounded, sans-serif;
@@ -27,7 +39,7 @@ a {
 }
 
 .body {
-  background-color: #414141;
+  background-color: var(--dark-slate-grey);
   background-image: url('../images/Tablica.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
@@ -104,7 +116,7 @@ a {
 }
 
 .section._2 {
-  background-image: linear-gradient(rgba(13, 26, 37, .5), rgba(13, 26, 37, .5)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--black-2), var(--black-2)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -112,14 +124,14 @@ a {
 }
 
 .section._1 {
-  background-image: linear-gradient(rgba(44, 23, 23, .7), rgba(44, 23, 23, .7)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--black), var(--black)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
 }
 
 .section._1.b {
-  background-image: linear-gradient(#414141, #414141), linear-gradient(rgba(44, 23, 23, .7), rgba(44, 23, 23, .7)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--dark-slate-grey), var(--dark-slate-grey)), linear-gradient(to bottom, var(--black), var(--black)), url('../images/Tablica.jpg');
   background-position: 0 0, 0 0, 0 0;
   background-repeat: repeat, repeat, repeat;
   background-size: auto, auto, contain;
@@ -127,7 +139,7 @@ a {
 }
 
 .section._3 {
-  background-image: linear-gradient(rgba(12, 48, 51, .5), rgba(12, 48, 51, .5)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--dark-slate-grey-3), var(--dark-slate-grey-3)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -157,7 +169,7 @@ a {
 }
 
 .text-haslo {
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -198,7 +210,7 @@ a {
 }
 
 .h1-dzial {
-  color: #fff;
+  color: var(--white);
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 15px;
@@ -217,7 +229,7 @@ a {
 }
 
 .section-intro.edukacja {
-  background-image: linear-gradient(rgba(29, 29, 29, .5), rgba(29, 29, 29, .5)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--baza), var(--baza)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   flex-direction: row;
@@ -468,7 +480,7 @@ a {
 }
 
 .link-4 {
-  color: #fff;
+  color: var(--white);
 }
 
 .button {
@@ -499,7 +511,7 @@ a {
 }
 
 .container-4 {
-  color: #fff;
+  color: var(--white);
   position: relative;
 }
 
@@ -515,7 +527,7 @@ a {
 }
 
 .section-subheading.center.kontakt {
-  color: #414141;
+  color: var(--dark-slate-grey);
   font-family: museo-sans-rounded, sans-serif;
   font-size: 32px;
   font-weight: 500;
@@ -548,7 +560,7 @@ a {
 }
 
 .section-title-group {
-  color: #fff;
+  color: var(--white);
   margin-bottom: 40px;
   position: relative;
 }
@@ -559,7 +571,7 @@ a {
 }
 
 .section-2.kontakt, .section-2.dojazd {
-  background-image: linear-gradient(rgba(29, 29, 29, .5), rgba(29, 29, 29, .5)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--baza), var(--baza)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -660,7 +672,7 @@ a {
 }
 
 .bold-text {
-  color: #fff;
+  color: var(--white);
 }
 
 .stralka {
@@ -687,16 +699,16 @@ a {
 }
 
 .kalendarium {
-  background-color: #fff;
+  background-color: var(--white);
   overflow: hidden;
 }
 
 .miesiac-00 {
   width: 100px;
   height: 40px;
-  color: #fff;
+  border: 1px solid var(--dark-slate-grey);
+  color: var(--white);
   text-align: center;
-  border: 1px solid #414141;
   justify-content: center;
   align-items: center;
   font-size: 24px;
@@ -718,11 +730,11 @@ a {
 }
 
 .div-block-60 {
-  background-color: #414141;
+  background-color: var(--dark-slate-grey);
 }
 
 .div-block-61 {
-  border: 1px solid #414141;
+  border: 1px solid var(--dark-slate-grey);
 }
 
 .div-block-62 {
@@ -810,8 +822,8 @@ a {
 }
 
 .link_do_zapisu {
+  background-color: var(--dark-slate-grey);
   text-transform: uppercase;
-  background-color: #414141;
   border-radius: 8px;
   margin: 10px 5px 5px;
   transition: transform .2s, opacity .2s;
@@ -823,8 +835,8 @@ a {
 }
 
 .link_do_zapisu.invert {
-  color: #414141;
-  background-color: #fff;
+  background-color: var(--white);
+  color: var(--dark-slate-grey);
   font-weight: 700;
 }
 
@@ -964,7 +976,7 @@ a {
 }
 
 .secsion-box {
-  background-image: linear-gradient(rgba(29, 29, 29, .5), rgba(29, 29, 29, .5)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--baza), var(--baza)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1012,7 +1024,7 @@ a {
 
 .osoba {
   z-index: -1;
-  background-color: #fff;
+  background-color: var(--white);
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
@@ -1052,9 +1064,9 @@ a {
 }
 
 .heading-6 {
+  background-color: var(--white);
   text-align: center;
   text-transform: uppercase;
-  background-color: #fff;
   justify-content: center;
   margin-top: 0;
   padding-top: 0;
@@ -1066,13 +1078,13 @@ a {
 }
 
 .heading-6._2 {
-  color: #fff;
+  color: var(--white);
   background-color: rgba(0, 0, 0, 0);
 }
 
 .heading-7 {
   opacity: .66;
-  color: #fff;
+  color: var(--white);
   text-align: center;
   text-transform: uppercase;
   margin-top: 10px;
@@ -1101,7 +1113,7 @@ a {
 }
 
 .podpunkt {
-  color: #fff;
+  color: var(--white);
   background-color: rgba(65, 65, 65, .7);
   margin-bottom: 15px;
   padding: 5px 10px;
@@ -1113,7 +1125,7 @@ a {
 
 .form {
   height: 600px;
-  background-color: #fff;
+  background-color: var(--white);
   justify-content: center;
   align-items: center;
   margin-top: 20px;
@@ -1185,7 +1197,7 @@ a {
 }
 
 .data {
-  color: #fff;
+  color: var(--white);
   font-size: 22px;
   font-weight: 300;
 }
@@ -1200,7 +1212,7 @@ a {
 }
 
 .link-block-3 {
-  background-color: #fff;
+  background-color: var(--white);
   justify-content: center;
   transition: transform .2s, opacity .2s;
   display: none;
@@ -1212,7 +1224,7 @@ a {
 }
 
 .text-block-19 {
-  color: #414141;
+  color: var(--dark-slate-grey);
   text-align: center;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -1235,7 +1247,7 @@ a {
 }
 
 .text-block-21 {
-  color: #414141;
+  color: var(--dark-slate-grey);
   font-size: 42px;
 }
 
@@ -1289,14 +1301,14 @@ a {
 }
 
 .text-block-22 {
-  color: #fff;
+  color: var(--white);
   margin-top: 0;
   margin-bottom: 20px;
   font-weight: 300;
 }
 
 .section-txt {
-  background-image: linear-gradient(rgba(29, 29, 29, .5), rgba(29, 29, 29, .5)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--baza), var(--baza)), url('../images/Tablica.jpg');
   background-position: 0 0, 0 0;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -1337,7 +1349,7 @@ a {
 }
 
 .container-7 {
-  color: #fff;
+  color: var(--white);
   padding-bottom: 40px;
   position: relative;
 }
@@ -1351,7 +1363,7 @@ a {
 }
 
 .rich-text-block-2 {
-  color: #fff;
+  color: var(--white);
   padding-bottom: 40px;
 }
 
@@ -1400,9 +1412,9 @@ a {
 }
 
 .round-16 {
+  background-color: var(--white);
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  background-color: #fff;
   border: 1px rgba(255, 255, 255, .6);
   flex-direction: column;
   flex: 0 auto;
@@ -1850,13 +1862,13 @@ a {
   }
 
   .heading-4 {
-    color: #fff;
+    color: var(--white);
     text-transform: none;
     font-size: 22px;
   }
 
   .div-block-9 {
-    color: #fff;
+    color: var(--white);
     flex-direction: column;
     align-items: center;
     margin-top: 10px;
@@ -1865,20 +1877,20 @@ a {
   }
 
   .heading-2 {
-    color: #fff;
+    color: var(--white);
     text-transform: none;
     margin-left: 0;
     font-size: 22px;
   }
 
   .txt_d {
-    color: #fff;
+    color: var(--white);
     font-size: 18px;
     line-height: 24px;
   }
 
   .heading {
-    color: #fff;
+    color: var(--white);
     text-align: center;
     font-size: 22px;
   }
@@ -1888,7 +1900,7 @@ a {
   }
 
   .bus_nr {
-    color: #fff;
+    color: var(--white);
     background-color: #de4b29;
     border-radius: 5px;
     margin-left: 10px;
