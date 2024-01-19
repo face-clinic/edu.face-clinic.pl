@@ -689,12 +689,12 @@ a {
   display: flex;
 }
 
-.div-block-59 {
+.lewa-data {
   justify-content: flex-end;
   display: flex;
 }
 
-.div-block-59.off {
+.lewa-data.off {
   opacity: 0;
 }
 
@@ -757,13 +757,13 @@ a {
   transform: rotate(0);
 }
 
-.div-block-63 {
+.master-kursu {
   background-color: rgba(65, 65, 65, .2);
   margin-top: 3px;
   margin-bottom: 3px;
 }
 
-.div-block-63.off {
+.master-kursu.off {
   display: none;
 }
 
@@ -2128,7 +2128,7 @@ a {
     flex-direction: column;
   }
 
-  .div-block-59 {
+  .lewa-data {
     width: auto;
   }
 
