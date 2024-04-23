@@ -65,15 +65,15 @@ a {
 }
 
 .nav-menu {
-  height: 80px;
   justify-content: flex-end;
   align-items: center;
+  height: 80px;
   display: flex;
 }
 
 .logo {
-  height: 50px;
   max-width: 140px;
+  height: 50px;
   margin-left: 10px;
   transition: opacity .2s;
 }
@@ -99,8 +99,8 @@ a {
 }
 
 .div-block-3 {
-  width: 100%;
   justify-content: center;
+  width: 100%;
   display: flex;
 }
 
@@ -188,17 +188,17 @@ a {
 }
 
 .przerywana {
-  height: 3px;
   background-image: url('../images/white_dot-01_poziom.svg');
   background-position: 0 0;
   background-repeat: repeat-x;
   background-size: contain;
+  height: 3px;
 }
 
 .rich-text-block {
-  max-width: 960px;
   flex-direction: column;
   align-self: flex-start;
+  max-width: 960px;
   padding: 10px 20px 20px;
   display: flex;
 }
@@ -220,10 +220,10 @@ a {
 }
 
 .section-intro {
-  height: 100vh;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  height: 100vh;
   display: flex;
   overflow: hidden;
 }
@@ -250,11 +250,11 @@ a {
 }
 
 .button_home {
-  max-width: 120px;
-  min-width: 140px;
   background-color: #5a5c61;
   border-radius: 20%;
   align-self: stretch;
+  min-width: 140px;
+  max-width: 120px;
 }
 
 .button_home.pro {
@@ -285,11 +285,11 @@ a {
 }
 
 .div-button-home {
-  width: 140px;
   opacity: .95;
   cursor: pointer;
   background-color: #fff;
   border-radius: 20%;
+  width: 140px;
   transition: box-shadow .2s, transform .2s, opacity .2s;
 }
 
@@ -300,12 +300,12 @@ a {
 }
 
 .stopka {
-  height: 160px;
   background-image: url('../images/Tablica.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
   flex-direction: column;
+  height: 160px;
   display: flex;
   position: static;
   top: auto;
@@ -333,13 +333,13 @@ a {
 }
 
 .div_stopka {
-  height: 100%;
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   background-color: rgba(0, 0, 0, .13);
   border-top: 1px dashed rgba(255, 255, 255, .5);
   justify-content: space-between;
   align-items: center;
+  height: 100%;
   display: flex;
 }
 
@@ -425,9 +425,9 @@ a {
 }
 
 .kreska-100 {
+  background-color: #bec3c7;
   width: 1px;
   height: 100px;
-  background-color: #bec3c7;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -454,8 +454,8 @@ a {
 }
 
 .bx4 {
-  height: 190px;
   justify-content: center;
+  height: 190px;
   padding-top: 20px;
   padding-bottom: 15px;
   display: none;
@@ -505,8 +505,8 @@ a {
 }
 
 .button.full-width {
-  width: 100%;
   border-radius: 10px;
+  width: 100%;
   display: block;
 }
 
@@ -536,9 +536,9 @@ a {
 }
 
 .form-field {
-  min-height: 45px;
   border: 0 solid #000;
   border-radius: 10px;
+  min-height: 45px;
   margin-bottom: 17px;
   margin-right: 1px;
   box-shadow: 0 0 0 1px rgba(64, 64, 71, .3);
@@ -549,8 +549,8 @@ a {
 }
 
 .form-field.text-area {
-  min-height: 110px;
   background-color: #fff;
+  min-height: 110px;
 }
 
 .form-wrapper.squeezed {
@@ -691,6 +691,7 @@ a {
 
 .lewa-data {
   justify-content: flex-end;
+  width: 136px;
   display: flex;
 }
 
@@ -704,24 +705,24 @@ a {
 }
 
 .miesiac-00 {
-  width: 100px;
-  height: 40px;
   border: 1px solid var(--dark-slate-grey);
   color: var(--white);
   text-align: center;
   justify-content: center;
   align-items: center;
+  width: 100px;
+  height: 40px;
   font-size: 24px;
   font-weight: 700;
   display: flex;
 }
 
 .dzien-00 {
-  height: 40px;
   text-align: center;
   white-space: nowrap;
   justify-content: center;
   align-items: center;
+  height: 40px;
   padding-left: 10px;
   padding-right: 10px;
   font-size: 24px;
@@ -788,8 +789,8 @@ a {
 }
 
 .div-block-65 {
-  width: 15px;
   align-items: flex-end;
+  width: 15px;
   margin-left: 3px;
   display: flex;
 }
@@ -800,10 +801,10 @@ a {
 }
 
 .zadzwon {
-  width: 70px;
-  height: 70px;
   background-color: #00aeff;
   border-radius: 100px;
+  width: 70px;
+  height: 70px;
   margin-bottom: 140px;
   margin-right: 40px;
   transition: height .3s, width .3s;
@@ -845,10 +846,10 @@ a {
 }
 
 .link_do_zapisu._136 {
-  width: 136px;
-  height: 80px;
   text-align: center;
   align-items: center;
+  width: 136px;
+  height: 80px;
   margin: 0;
   display: flex;
 }
@@ -939,16 +940,16 @@ a {
 }
 
 .box-kategoria-tytul.zespol {
-  height: auto;
-  max-width: 1200px;
   background-color: rgba(107, 107, 107, .9);
   border-radius: 20px;
   align-items: center;
+  max-width: 1200px;
+  height: auto;
 }
 
 .box-kategoria-tytul.zespol.lekarze {
-  max-width: 1200px;
   background-color: rgba(0, 0, 0, 0);
+  max-width: 1200px;
 }
 
 .podpis {
@@ -994,25 +995,25 @@ a {
 }
 
 .image-17 {
-  height: 85vh;
   max-width: none;
+  height: 85vh;
 }
 
 .opis-_osoby_big {
+  align-self: center;
   width: 60%;
   max-width: 40%;
-  align-self: center;
   margin-left: 5%;
   margin-right: 5%;
   padding-top: 20px;
 }
 
 .osoba_foto_big {
-  width: auto;
-  max-width: 50%;
   flex-direction: column;
   justify-content: flex-end;
   align-items: flex-end;
+  width: auto;
+  max-width: 50%;
   display: flex;
   position: relative;
 }
@@ -1042,12 +1043,12 @@ a {
 
 .wstecz {
   z-index: 8;
-  width: 105px;
-  height: 30px;
   background-color: #c3c3c3;
   border-radius: 6px;
   justify-content: center;
   align-items: center;
+  width: 105px;
+  height: 30px;
   margin-top: 25px;
   margin-bottom: 30px;
   transition: transform .2s;
@@ -1124,10 +1125,10 @@ a {
 }
 
 .form {
-  height: 600px;
   background-color: var(--white);
   justify-content: center;
   align-items: center;
+  height: 600px;
   margin-top: 20px;
   margin-bottom: 20px;
   display: flex;
@@ -1236,12 +1237,12 @@ a {
 }
 
 .div-block-96 {
-  height: 600px;
   mix-blend-mode: screen;
   background-image: url('../images/Face-Edu_Oro-Perio-Koncept-09-12-22-276.jpg');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 600px;
   margin-top: 40px;
   display: none;
 }
@@ -1284,19 +1285,19 @@ a {
 }
 
 .utility-page-wrap {
-  width: 100vw;
-  height: 100vh;
-  max-height: 100%;
-  max-width: 100%;
   justify-content: center;
   align-items: center;
+  width: 100vw;
+  max-width: 100%;
+  height: 100vh;
+  max-height: 100%;
   display: flex;
 }
 
 .utility-page-content {
-  width: 260px;
   text-align: center;
   flex-direction: column;
+  width: 260px;
   display: flex;
 }
 
@@ -1516,10 +1517,10 @@ a {
 }
 
 .kamerka {
-  width: 50px;
-  height: 60px;
   filter: brightness(133%) invert() grayscale();
   align-self: center;
+  width: 50px;
+  height: 60px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -1550,6 +1551,10 @@ a {
   height: 80px;
 }
 
+.lewadata_hide {
+  display: flex;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     border-bottom: 1px dashed rgba(255, 255, 255, .5);
@@ -1575,21 +1580,21 @@ a {
   }
 
   .nav-menu {
-    height: auto;
     background-color: rgba(0, 0, 0, 0);
+    height: auto;
   }
 
   .logo {
-    height: 60px;
     max-width: 140px;
+    height: 60px;
     margin-top: 3px;
     margin-bottom: 10px;
   }
 
   .dzial {
-    width: 50%;
     flex-direction: column;
     justify-content: flex-start;
+    width: 50%;
     padding-left: 40px;
     display: flex;
   }
@@ -1604,9 +1609,9 @@ a {
   }
 
   .section-intro.edukacja {
-    height: auto;
     background-position: 50%;
     align-items: flex-start;
+    height: auto;
     padding-top: 80px;
     padding-bottom: 40px;
   }
@@ -1626,8 +1631,8 @@ a {
   }
 
   .stopka {
-    height: 550px;
     flex-direction: column;
+    height: 550px;
   }
 
   .link-block {
@@ -1692,8 +1697,8 @@ a {
   }
 
   .box-kategoria-tytul.zespol.lekarze {
-    min-width: auto;
     border-radius: 0;
+    min-width: auto;
   }
 
   .immage_grid {
@@ -1701,9 +1706,9 @@ a {
   }
 
   .zespol_box {
+    align-self: center;
     width: 100%;
     min-width: auto;
-    align-self: center;
   }
 
   .image-17 {
@@ -1717,10 +1722,10 @@ a {
   }
 
   .osoba_foto_big {
-    width: 100%;
-    max-width: none;
     justify-content: flex-end;
     align-items: center;
+    width: 100%;
+    max-width: none;
   }
 
   .text-block-16 {
@@ -1728,10 +1733,10 @@ a {
   }
 
   .osoba {
-    width: 100vw;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 100vw;
     display: flex;
   }
 
@@ -1791,14 +1796,14 @@ a {
   }
 
   .button_home {
-    max-width: 100px;
     min-width: auto;
+    max-width: 100px;
   }
 
   .div-button-home {
+    min-width: auto;
     max-width: 100px;
     min-height: 89px;
-    min-width: auto;
   }
 
   .link {
@@ -1951,8 +1956,8 @@ a {
   }
 
   .box-kategoria-tytul.zespol {
-    max-width: none;
     min-width: auto;
+    max-width: none;
   }
 
   .immage_grid {
@@ -2103,9 +2108,9 @@ a {
   }
 
   .motyw {
-    width: 100vw;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
     margin-top: 40px;
     display: flex;
   }
