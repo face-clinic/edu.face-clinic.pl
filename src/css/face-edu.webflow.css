@@ -1555,10 +1555,6 @@ a {
   height: 80px;
 }
 
-.lewadata_hide {
-  display: flex;
-}
-
 @media screen and (max-width: 991px) {
   .nav-link {
     border-bottom: 1px dashed rgba(255, 255, 255, .5);
