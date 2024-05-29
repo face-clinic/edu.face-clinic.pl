@@ -138,6 +138,10 @@ a {
   padding-bottom: 0;
 }
 
+.section._1.off {
+  display: none;
+}
+
 .section._3 {
   background-image: linear-gradient(to bottom, var(--dark-slate-grey-3), var(--dark-slate-grey-3)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
