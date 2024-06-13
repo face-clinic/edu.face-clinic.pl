@@ -23,6 +23,12 @@ a {
   text-decoration: none;
 }
 
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+  padding-left: 40px;
+}
+
 .navbar {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
@@ -1456,12 +1462,17 @@ a {
   overflow: hidden;
 }
 
-.div-block-54 {
+.lista-1 {
   flex-direction: column;
   align-items: flex-start;
   padding-top: 10px;
   display: flex;
   overflow: hidden;
+}
+
+.lista-1._2-stopnie {
+  margin-bottom: 5px;
+  padding-right: 20px;
 }
 
 .accordian-item-content {
@@ -1486,8 +1497,8 @@ a {
 }
 
 .rich-text-block-opis {
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .rich-text-block-opis.txt {
@@ -1545,7 +1556,13 @@ a {
   margin-bottom: 2px;
 }
 
-.list-6, .list-7 {
+.list-6 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.rozklad-dnia {
+  margin-bottom: 0;
   font-size: 16px;
   line-height: 22px;
 }
@@ -1553,6 +1570,34 @@ a {
 .off_136_80 {
   width: 136px;
   height: 80px;
+}
+
+.list-8 {
+  list-style-type: disc;
+}
+
+.program-szkolenia-1 {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.program-szkolenia-2 {
+  margin-bottom: 7px;
+  padding-left: 57px;
+  line-height: 18px;
+}
+
+.program-szkolenia-2.a {
+  padding-left: 40px;
+  list-style-type: none;
+}
+
+.bold-text-5, .bold-text-6 {
+  font-weight: 500;
+}
+
+.italic-text {
+  font-style: normal;
 }
 
 @media screen and (max-width: 991px) {
@@ -1748,7 +1793,7 @@ a {
     position: static;
   }
 
-  .div-block-54 {
+  .lista-1 {
     flex-direction: column;
     align-items: stretch;
   }
