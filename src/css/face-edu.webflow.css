@@ -144,10 +144,6 @@ ul {
   padding-bottom: 0;
 }
 
-.section._1.off {
-  display: none;
-}
-
 .section._3 {
   background-image: linear-gradient(to bottom, var(--dark-slate-grey-3), var(--dark-slate-grey-3)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
@@ -1075,9 +1071,11 @@ ul {
 }
 
 .heading-6 {
+  z-index: 1;
   background-color: var(--white);
   text-align: center;
   text-transform: uppercase;
+  flex-flow: column;
   justify-content: center;
   margin-top: 0;
   padding-top: 0;
@@ -1579,6 +1577,7 @@ ul {
 .program-szkolenia-1 {
   margin-bottom: 5px;
   font-size: 16px;
+  list-style-type: disc;
 }
 
 .program-szkolenia-2 {
@@ -1598,6 +1597,13 @@ ul {
 
 .italic-text {
   font-style: normal;
+}
+
+.lista_kategorie {
+  padding-top: 10px;
+  padding-left: 20px;
+  font-size: 18px;
+  line-height: 22px;
 }
 
 @media screen and (max-width: 991px) {
@@ -2228,7 +2234,7 @@ ul {
   }
 
   .image_kurs {
-    width: 200vw;
+    width: 160vw;
     max-width: 200%;
   }
 
