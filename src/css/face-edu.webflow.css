@@ -1,13 +1,13 @@
 :root {
   --dark-slate-grey: #414141;
-  --black-2: rgba(13, 26, 37, .5);
-  --black: rgba(44, 23, 23, .7);
-  --dark-slate-grey-3: rgba(12, 48, 51, .5);
+  --black-2: #0d1a2580;
+  --black: #2c1717b3;
+  --dark-slate-grey-3: #0c303380;
   --white: white;
-  --baza: rgba(29, 29, 29, .5);
-  --maroon: rgba(73, 6, 6, .2);
-  --dark-slate-grey-2: rgba(0, 95, 102, .2);
-  --saddle-brown: rgba(73, 44, 14, .2);
+  --baza: #1d1d1d80;
+  --maroon: #49060633;
+  --dark-slate-grey-2: #005f6633;
+  --saddle-brown: #492c0e33;
 }
 
 body {
@@ -32,16 +32,13 @@ ul {
 .navbar {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  color: rgba(0, 0, 0, 0);
-  background-color: rgba(65, 65, 65, .5);
+  color: #0000;
+  background-color: #41414180;
   justify-content: space-around;
   align-items: center;
   display: flex;
   position: fixed;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .body {
@@ -67,7 +64,7 @@ ul {
 }
 
 .nav-link.w--current {
-  color: rgba(255, 255, 255, .5);
+  color: #ffffff80;
 }
 
 .nav-menu {
@@ -97,7 +94,7 @@ ul {
 }
 
 .nav {
-  border-bottom: 1px dashed rgba(255, 255, 255, .5);
+  border-bottom: 1px dashed #ffffff80;
   flex: 1;
   justify-content: space-around;
   align-items: center;
@@ -115,7 +112,7 @@ ul {
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
-  border-top: 1px dashed rgba(255, 255, 255, .5);
+  border-top: 1px dashed #ffffff80;
   padding-top: 40px;
   padding-bottom: 40px;
   overflow: hidden;
@@ -152,7 +149,7 @@ ul {
 }
 
 .section._4 {
-  background-image: linear-gradient(rgba(48, 33, 17, .5), rgba(48, 33, 17, .5)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(#30211180, #30211180), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -302,7 +299,7 @@ ul {
 .div-button-home:hover {
   opacity: 1;
   transform: translate(0, -3px);
-  box-shadow: 0 13px 10px rgba(0, 0, 0, .2);
+  box-shadow: 0 13px 10px #0003;
 }
 
 .stopka {
@@ -314,10 +311,7 @@ ul {
   height: 160px;
   display: flex;
   position: static;
-  top: auto;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
+  inset: auto 0% 0%;
   overflow: hidden;
 }
 
@@ -341,8 +335,8 @@ ul {
 .div_stopka {
   -webkit-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
-  background-color: rgba(0, 0, 0, .13);
-  border-top: 1px dashed rgba(255, 255, 255, .5);
+  background-color: #00000021;
+  border-top: 1px dashed #ffffff80;
   justify-content: space-between;
   align-items: center;
   height: 100%;
@@ -547,7 +541,7 @@ ul {
   min-height: 45px;
   margin-bottom: 17px;
   margin-right: 1px;
-  box-shadow: 0 0 0 1px rgba(64, 64, 71, .3);
+  box-shadow: 0 0 0 1px #4040474d;
 }
 
 .form-field:focus {
@@ -572,7 +566,7 @@ ul {
 }
 
 .section-2 {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding: 20px 40px 40px;
 }
 
@@ -617,7 +611,7 @@ ul {
 .container {
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
-  border: 1px dashed rgba(255, 255, 255, .5);
+  border: 1px dashed #ffffff80;
   border-radius: 20px;
 }
 
@@ -765,7 +759,7 @@ ul {
 }
 
 .master-kursu {
-  background-color: rgba(65, 65, 65, .2);
+  background-color: #41414133;
   margin-top: 3px;
   margin-bottom: 3px;
 }
@@ -815,17 +809,14 @@ ul {
   margin-right: 40px;
   transition: height .3s, width .3s;
   position: fixed;
-  top: auto;
-  bottom: 0%;
-  left: auto;
-  right: 0%;
-  box-shadow: -3px 10px 11px -5px rgba(9, 43, 59, .6);
+  inset: auto 0% 0% auto;
+  box-shadow: -3px 10px 11px -5px #092b3b99;
 }
 
 .zadzwon:hover {
   width: 75px;
   height: 75px;
-  box-shadow: -3px 12px 20px -7px rgba(9, 43, 59, .85);
+  box-shadow: -3px 12px 20px -7px #092b3bd9;
 }
 
 .link_do_zapisu {
@@ -935,7 +926,7 @@ ul {
 }
 
 .box-kategoria-tytul {
-  border: 1px rgba(255, 255, 255, .6);
+  border: 1px #fff9;
   flex-direction: column;
   align-self: stretch;
   padding-left: 10px;
@@ -946,7 +937,7 @@ ul {
 }
 
 .box-kategoria-tytul.zespol {
-  background-color: rgba(107, 107, 107, .9);
+  background-color: #6b6b6be6;
   border-radius: 20px;
   align-items: center;
   max-width: 1200px;
@@ -954,7 +945,7 @@ ul {
 }
 
 .box-kategoria-tytul.zespol.lekarze {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   max-width: 1200px;
 }
 
@@ -1088,7 +1079,7 @@ ul {
 
 .heading-6._2 {
   color: var(--white);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
 }
 
 .heading-7 {
@@ -1123,7 +1114,7 @@ ul {
 
 .podpunkt {
   color: var(--white);
-  background-color: rgba(65, 65, 65, .7);
+  background-color: #414141b3;
   margin-bottom: 15px;
   padding: 5px 10px;
   font-size: 16px;
@@ -1212,7 +1203,7 @@ ul {
 }
 
 .data_podpis {
-  color: rgba(255, 255, 255, .62);
+  color: #ffffff9e;
 }
 
 .div-block-95 {
@@ -1395,7 +1386,7 @@ ul {
 
 .accordian-item-trigger:hover {
   letter-spacing: .2px;
-  background-color: rgba(68, 71, 73, .12);
+  background-color: #4447491f;
 }
 
 .text-block-23 {
@@ -1410,7 +1401,7 @@ ul {
 .box-kategoria-tytul-2 {
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
-  border: 1px rgba(255, 255, 255, .6);
+  border: 1px #fff9;
   flex-direction: column;
   align-self: stretch;
   padding-left: 10px;
@@ -1424,7 +1415,7 @@ ul {
   background-color: var(--white);
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  border: 1px rgba(255, 255, 255, .6);
+  border: 1px #fff9;
   flex-direction: column;
   flex: 0 auto;
   align-self: auto;
@@ -1510,7 +1501,7 @@ ul {
 }
 
 .link_film-2 {
-  color: rgba(68, 71, 73, .9);
+  color: #444749e6;
   border: 1px dashed #000;
   border-radius: 8px;
   flex-direction: row;
@@ -1539,7 +1530,7 @@ ul {
 }
 
 .accordian-wrapper {
-  background-color: rgba(0, 0, 0, .06);
+  background-color: #0000000f;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -1608,7 +1599,7 @@ ul {
 
 @media screen and (max-width: 991px) {
   .nav-link {
-    border-bottom: 1px dashed rgba(255, 255, 255, .5);
+    border-bottom: 1px dashed #ffffff80;
     margin-left: 0;
     margin-right: 0;
     padding-left: 30px;
@@ -1620,18 +1611,18 @@ ul {
   }
 
   .menu-button {
-    color: rgba(0, 0, 0, 0);
+    color: #0000;
     flex-direction: row;
     align-items: center;
     padding: 10px 20px 10px 10px;
   }
 
   .menu-button.w--open {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .nav-menu {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
     height: auto;
   }
 
@@ -1735,7 +1726,7 @@ ul {
   .div-block-58 {
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    background-color: rgba(65, 65, 65, .5);
+    background-color: #41414180;
   }
 
   .motyw {
@@ -2072,7 +2063,7 @@ ul {
   }
 
   .accordian-item-trigger:focus {
-    background-color: rgba(107, 157, 168, .35);
+    background-color: #6b9da859;
   }
 
   .box-kategoria-tytul-2 {
