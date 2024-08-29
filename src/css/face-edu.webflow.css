@@ -162,6 +162,10 @@ ul {
   background-size: auto, cover;
 }
 
+.section._5.off {
+  display: none;
+}
+
 .dzial {
   width: 40%;
 }
