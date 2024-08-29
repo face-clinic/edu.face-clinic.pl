@@ -155,6 +155,13 @@ ul {
   background-size: auto, cover;
 }
 
+.section._5 {
+  background-image: linear-gradient(#a9d5ff75, #a9d5ff75), url('../images/Tablica.jpg');
+  background-position: 0 0, 50%;
+  background-repeat: repeat, no-repeat;
+  background-size: auto, cover;
+}
+
 .dzial {
   width: 40%;
 }
@@ -1597,6 +1604,34 @@ ul {
   line-height: 22px;
 }
 
+.div-block-103 {
+  border: 1px dashed var(--white);
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+.paragraph-5 {
+  color: var(--white);
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 26px;
+}
+
+.div-block-104 {
+  flex: 1;
+  align-items: center;
+  margin-left: 20px;
+  display: flex;
+}
+
+.image-19 {
+  background-color: var(--white);
+  border-radius: 200px;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     border-bottom: 1px dashed #ffffff80;
@@ -2282,6 +2317,19 @@ ul {
 
   .kamerka {
     width: 30px;
+  }
+
+  .div-block-103 {
+    flex-flow: column;
+  }
+
+  .paragraph-5 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .div-block-104 {
+    margin-left: 0;
   }
 }
 
