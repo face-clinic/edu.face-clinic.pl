@@ -142,6 +142,10 @@ ul {
   padding-bottom: 0;
 }
 
+.section._1.off {
+  display: none;
+}
+
 .section._3 {
   background-image: linear-gradient(to bottom, var(--dark-slate-grey-3), var(--dark-slate-grey-3)), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
@@ -920,6 +924,10 @@ ul {
   box-shadow: 0 8px 12px -2px #292929;
 }
 
+.link_osoba.off {
+  display: none;
+}
+
 .div-block-90 {
   border-radius: 12px;
   overflow: hidden;
@@ -1059,6 +1067,7 @@ ul {
 .container-6 {
   flex-direction: column;
   display: flex;
+  overflow: hidden;
 }
 
 .heading-6 {
@@ -1648,10 +1657,6 @@ ul {
   flex-flow: row;
   justify-content: space-between;
   position: absolute;
-}
-
-.div_nowe_sold.off {
-  display: none;
 }
 
 .list-item-5 {
