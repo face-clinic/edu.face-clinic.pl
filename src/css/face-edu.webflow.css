@@ -160,11 +160,19 @@ ul {
   background-size: auto, cover;
 }
 
+.section._4.off {
+  display: none;
+}
+
 .section._5 {
   background-image: linear-gradient(#b7c8d8, #b7c8d8), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
+}
+
+.section._5.off {
+  display: none;
 }
 
 .dzial {
@@ -1091,6 +1099,10 @@ ul {
   background-color: #0000;
 }
 
+.heading-6.marg {
+  padding-top: 10px;
+}
+
 .image_kurs {
   flex: 1;
 }
@@ -1659,7 +1671,20 @@ ul {
   position: absolute;
 }
 
+.div_nowe_sold.off {
+  display: none;
+}
+
 .list-item-5 {
+  text-decoration: underline;
+}
+
+.bold-h4, .bold-text-7 {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.bold-text-8, .bold-text-9 {
   text-decoration: underline;
 }
 
