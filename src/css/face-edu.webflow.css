@@ -1652,7 +1652,7 @@ ul {
 
 .ico_nowe_sold {
   z-index: 2;
-  width: 25%;
+  max-width: 40%;
 }
 
 .ico_nowe_sold._1 {
@@ -1889,6 +1889,10 @@ ul {
   .accordian-wrapper {
     flex-direction: column;
     display: flex;
+  }
+
+  .ico_nowe_sold {
+    max-width: 35%;
   }
 }
 
@@ -2165,6 +2169,10 @@ ul {
     border-radius: 0;
     align-self: stretch;
   }
+
+  .ico_nowe_sold {
+    max-width: 30%;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2399,8 +2407,8 @@ ul {
     margin-left: 0;
   }
 
-  .ico_nowe_sold._2 {
-    width: 35%;
+  .ico_nowe_sold {
+    max-width: 40%;
   }
 
   .div_nowe_sold {
