@@ -153,6 +153,10 @@ ul {
   background-size: auto, cover;
 }
 
+.section._3.lws--40px-top {
+  padding-top: 0;
+}
+
 .section._4 {
   background-image: linear-gradient(#30211180, #30211180), url('../images/Tablica.jpg');
   background-position: 0 0, 50%;
@@ -2330,6 +2334,10 @@ ul {
   .image_kurs {
     width: 160vw;
     max-width: 200%;
+  }
+
+  .image_kurs.lws {
+    width: 130vw;
   }
 
   .heading-7 {
