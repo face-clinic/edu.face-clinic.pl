@@ -1692,6 +1692,13 @@ ul {
   text-decoration: underline;
 }
 
+.div-block-105 {
+  border-top: 1px dashed var(--white);
+  opacity: .49;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     border-bottom: 1px dashed #ffffff80;
