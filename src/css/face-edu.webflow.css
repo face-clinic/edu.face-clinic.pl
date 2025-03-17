@@ -1,10 +1,10 @@
 :root {
+  --baza: #1d1d1d80;
   --dark-slate-grey: #414141;
   --black-2: #0d1a2580;
   --black: #2c1717b3;
   --dark-slate-grey-3: #0c303380;
   --white: white;
-  --baza: #1d1d1d80;
   --maroon: #49060633;
   --dark-slate-grey-2: #005f6633;
   --saddle-brown: #492c0e33;
@@ -31,10 +31,10 @@ ul {
 }
 
 .navbar {
+  background-color: var(--baza);
   -webkit-backdrop-filter: blur(20px);
   backdrop-filter: blur(20px);
   color: #0000;
-  background-color: #41414180;
   justify-content: space-around;
   align-items: center;
   display: flex;
@@ -1701,10 +1701,17 @@ ul {
 
 @media screen and (max-width: 991px) {
   .nav-link {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     border-bottom: 1px dashed #ffffff80;
     margin-left: 0;
     margin-right: 0;
     padding-left: 30px;
+    transition: opacity .2s;
+  }
+
+  .nav-link:hover {
+    transform: none;
   }
 
   .icon {
@@ -1724,6 +1731,8 @@ ul {
   }
 
   .nav-menu {
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
     background-color: #0000;
     height: auto;
   }
@@ -1745,6 +1754,10 @@ ul {
 
   .dzial.edu {
     margin-top: -70px;
+  }
+
+  .text-haslo {
+    overflow-wrap: anywhere;
   }
 
   .section-intro {
@@ -1826,9 +1839,9 @@ ul {
   }
 
   .div-block-58 {
+    background-color: var(--baza);
     -webkit-backdrop-filter: blur(20px);
     backdrop-filter: blur(20px);
-    background-color: #41414180;
   }
 
   .motyw {
