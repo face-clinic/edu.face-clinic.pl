@@ -154,11 +154,18 @@ ul {
 }
 
 .section._3.lws--40px-top {
+  background-image: linear-gradient(to bottom, null, null), url('../images/Tablica.webp');
+  padding-top: 10px;
+}
+
+.section._3.kurs-dla-higienistek {
+  background-image: linear-gradient(to bottom, var(--black-2), var(--black-2)), url('../images/Tablica.webp');
+  background-position: 0 0, 50%;
   padding-top: 10px;
 }
 
 .section._4 {
-  background-image: linear-gradient(#30211180, #30211180), url('../images/Tablica.jpg');
+  background-image: linear-gradient(#30211180, #30211180), url('../images/Tablica.webp');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -169,7 +176,7 @@ ul {
 }
 
 .section._5 {
-  background-image: linear-gradient(#b7c8d8, #b7c8d8), url('../images/Tablica.jpg');
+  background-image: linear-gradient(#b7c8d8, #b7c8d8), url('../images/Tablica.webp');
   background-position: 0 0, 50%;
   background-repeat: repeat, no-repeat;
   background-size: auto, cover;
@@ -256,7 +263,7 @@ ul {
 }
 
 .section-intro.edukacja {
-  background-image: linear-gradient(to bottom, var(--baza), var(--baza)), url('../images/Tablica.jpg');
+  background-image: linear-gradient(to bottom, var(--baza), var(--baza)), url('../images/Tablica.webp');
   background-position: 0 0, 50%;
   background-size: auto, cover;
   flex-direction: row;
@@ -731,12 +738,12 @@ ul {
 
 .miesiac-00 {
   border: 1px solid var(--dark-slate-grey);
+  width: 100px;
+  height: 40px;
   color: var(--white);
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  height: 40px;
   font-size: 24px;
   font-weight: 700;
   display: flex;
@@ -1105,6 +1112,12 @@ ul {
 
 .heading-6.marg {
   padding-top: 10px;
+}
+
+.heading-6.heading-small {
+  padding-top: 10px;
+  font-size: 32px;
+  line-height: 30px;
 }
 
 .image_kurs {
@@ -1573,6 +1586,7 @@ ul {
 
 .accordian-wrapper {
   background-color: #0000000f;
+  flex-flow: column;
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
@@ -1697,6 +1711,35 @@ ul {
   opacity: .49;
   width: 100%;
   margin-bottom: 30px;
+}
+
+.list-item-6, .list-item-7 {
+  list-style-type: none;
+}
+
+.heading-8 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.program-szkolenia-dwa-dni {
+  flex-direction: column;
+  align-items: flex-start;
+  padding-top: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.program-szkolenia-dwa-dni._2-stopnie {
+  margin-bottom: 5px;
+  padding-right: 20px;
+}
+
+.div-block-106 {
+  display: block;
 }
 
 @media screen and (max-width: 991px) {
@@ -1917,6 +1960,11 @@ ul {
 
   .ico_nowe_sold {
     max-width: 35%;
+  }
+
+  .program-szkolenia-dwa-dni {
+    flex-direction: column;
+    align-items: stretch;
   }
 }
 
